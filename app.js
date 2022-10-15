@@ -11,7 +11,7 @@ server.use(cors())
 
 server.use(express.json());
 
-mongoose.connect('mongodb+srv://........mongodb.net/todo_list?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://admin:admin@cluster0.loqo92a.mongodb.net/?retryWrites=true&w=majority',
   {
     useUnifiedTopology: true,
     useNewUrlParser: true
